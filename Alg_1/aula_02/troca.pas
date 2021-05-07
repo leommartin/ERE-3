@@ -1,10 +1,10 @@
-program
+program troca;
 var 
-    a, b, aux: integer;
+    a, b, aux: longint;
 begin
-    a:=10;
-    b:=20;
+    read(a,b);
     aux:=a;
     a:= b;
     b:= aux;
+    writeln( 'a= ', a, ' b= ', b);
 end.
